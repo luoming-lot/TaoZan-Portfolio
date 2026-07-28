@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { ArrowUpRight } from 'lucide-react'
+import { ArrowUpRight, Globe } from 'lucide-react'
 import { FaGithub } from 'react-icons/fa'
 import Link from 'next/link'
 import { Section } from '@/components/ui/Section'
@@ -56,10 +56,28 @@ export function Projects() {
               {/* Links */}
               <div className="mt-5 pt-4 border-t border-zinc-800/30 flex items-center gap-4">
                 {project.githubUrl && (
-                  <span className="inline-flex items-center gap-1.5 text-xs text-zinc-500 hover:text-zinc-300 transition-colors">
+                  <a
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => e.stopPropagation()}
+                    className="inline-flex items-center gap-1.5 text-xs text-zinc-500 hover:text-zinc-300 transition-colors"
+                  >
                     <FaGithub size={14} />
                     Source
-                  </span>
+                  </a>
+                )}
+                {project.liveUrl && (
+                  <a
+                    href={project.liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => e.stopPropagation()}
+                    className="inline-flex items-center gap-1.5 text-xs text-zinc-500 hover:text-zinc-300 transition-colors"
+                  >
+                    <Globe size={14} />
+                    Live Demo
+                  </a>
                 )}
                 <span className="inline-flex items-center gap-1.5 text-xs text-zinc-400 group-hover:text-zinc-200 transition-colors">
                   Details

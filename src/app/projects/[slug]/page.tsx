@@ -45,9 +45,13 @@ export default async function ProjectPage({ params }: Props) {
           Back to Projects
         </Link>
 
-        {/* Cover placeholder */}
-        <div className="aspect-video rounded-2xl bg-zinc-900/50 border border-zinc-800/50 flex items-center justify-center mb-10">
-          <span className="text-sm text-zinc-600">{project.title} — Cover Image</span>
+        {/* Cover image */}
+        <div className="aspect-video rounded-2xl bg-zinc-900/50 border border-zinc-800/50 overflow-hidden mb-10">
+          <img
+            src={project.coverImage}
+            alt={project.title}
+            className="w-full h-full object-cover"
+          />
         </div>
 
         {/* Title */}

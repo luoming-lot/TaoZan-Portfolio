@@ -1,7 +1,5 @@
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
-import { Analytics } from '@vercel/analytics/next'
-import { SpeedInsights } from '@vercel/speed-insights/next'
 import { ThemeProvider } from '@/components/layout/ThemeProvider'
 import { Header } from '@/components/layout/Header'
 import { Footer } from '@/components/layout/Footer'
@@ -37,7 +35,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tao Zan', url: 'https://github.com/luoming-lot' }],
   creator: 'Tao Zan',
-  metadataBase: new URL('https://taozan.dev'),
+  metadataBase: new URL('https://luoming-lot.github.io/portfolio'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -100,8 +98,6 @@ export default function RootLayout({
           <main className="flex-1">{children}</main>
           <Footer />
         </ThemeProvider>
-        <Analytics />
-        <SpeedInsights />
       </body>
     </html>
   )
