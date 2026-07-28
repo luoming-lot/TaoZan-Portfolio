@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <!-- Grid pattern -->
+  <g opacity="0.05">
+    <line x1="0" y1="0" x2="1200" y2="0" stroke="white" stroke-width="1"/>
+    <line x1="0" y1="135" x2="1200" y2="135" stroke="white" stroke-width="1"/>
+    <line x1="0" y1="270" x2="1200" y2="270" stroke="white" stroke-width="1"/>
+    <line x1="0" y1="405" x2="1200" y2="405" stroke="white" stroke-width="1"/>
+    <line x1="0" y1="540" x2="1200" y2="540" stroke="white" stroke-width="1"/>
+    <line x1="200" y1="0" x2="200" y2="675" stroke="white" stroke-width="1"/>
+    <line x1="400" y1="0" x2="400" y2="675" stroke="white" stroke-width="1"/>
+    <line x1="600" y1="0" x2="600" y2="675" stroke="white" stroke-width="1"/>
+    <line x1="800" y1="0" x2="800" y2="675" stroke="white" stroke-width="1"/>
+    <line x1="1000" y1="0" x2="1000" y2="675" stroke="white" stroke-width="1"/>
+  </g>
+  <!-- IoT icon - circuit/signal -->
+  <g transform="translate(600,240)" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round">
+    <circle cx="0" cy="0" r="8" fill="#3b82f6"/>
+    <path d="M-80,-40 Q-40,-40 0,0 Q40,40 80,40" opacity="0.6"/>
+    <path d="M-100,0 Q-50,0 0,0 Q50,0 100,0" opacity="0.4"/>
+    <path d="M-80,40 Q-40,40 0,0 Q40,-40 80,-40" opacity="0.6"/>
+    <!-- Device nodes -->
+    <rect x="-90" y="-55" width="20" height="20" rx="4" fill="#1e293b" stroke="#3b82f6"/>
+    <rect x="70" y="30" width="20" height="20" rx="4" fill="#1e293b" stroke="#06b6d4"/>
+    <rect x="70" y="-55" width="20" height="20" rx="4" fill="#1e293b" stroke="#06b6d4"/>
+  </g>
+  <text x="600" y="340" text-anchor="middle" font-family="system-ui,sans-serif" font-size="36" font-weight="700" fill="#f1f5f9">IoT Platform</text>
+  <text x="600" y="380" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" fill="#64748b">Device Management · Real-Time Monitoring · MQTT</text>
+  <!-- Bottom status bar -->
+  <rect x="300" y="510" width="600" height="60" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+  <circle cx="350" cy="540" r="6" fill="#22c55e"/>
+  <text x="370" y="545" font-family="monospace" font-size="13" fill="#94a3b8">52 Devices Online</text>
+  <circle cx="560" cy="540" r="6" fill="#f59e0b"/>
+  <text x="580" y="545" font-family="monospace" font-size="13" fill="#94a3b8">3 Alerts</text>
+  <circle cx="730" cy="540" r="6" fill="#3b82f6"/>
+  <text x="750" y="545" font-family="monospace" font-size="13" fill="#94a3b8">MQTT Connected</text>
+</svg>

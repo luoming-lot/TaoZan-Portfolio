@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0c0a1e"/>
+      <stop offset="100%" style="stop-color:#1a1530"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a855f7"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <!-- Code window -->
+  <rect x="80" y="80" width="640" height="515" rx="16" fill="#0f0f1a" stroke="#1e1e3a" stroke-width="1"/>
+  <rect x="80" y="80" width="640" height="40" rx="16" fill="#0f0f1a"/>
+  <rect x="80" y="100" width="640" height="20" fill="#0f0f1a"/>
+  <circle cx="105" cy="100" r="6" fill="#ef4444"/>
+  <circle cx="125" cy="100" r="6" fill="#f59e0b"/>
+  <circle cx="145" cy="100" r="6" fill="#22c55e"/>
+  <!-- Code lines -->
+  <text x="105" y="155" font-family="monospace" font-size="13" fill="#a855f7">import</text>
+  <text x="170" y="155" font-family="monospace" font-size="13" fill="#94a3b8">FastAPI</text>
+  <text x="105" y="178" font-family="monospace" font-size="13" fill="#a855f7">from</text>
+  <text x="145" y="178" font-family="monospace" font-size="13" fill="#94a3b8">pydantic</text>
+  <text x="105" y="201" font-family="monospace" font-size="13" fill="#a855f7">import</text>
+  <text x="170" y="201" font-family="monospace" font-size="13" fill="#94a3b8">BaseModel</text>
+  <text x="105" y="235" font-family="monospace" font-size="13" fill="#64748b">class</text>
+  <text x="155" y="235" font-family="monospace" font-size="13" fill="#06b6d4">ReviewRequest</text>
+  <text x="280" y="235" font-family="monospace" font-size="13" fill="#64748b">(BaseModel):</text>
+  <text x="125" y="258" font-family="monospace" font-size="13" fill="#94a3b8">code:</text>
+  <text x="165" y="258" font-family="monospace" font-size="13" fill="#a855f7">str</text>
+  <text x="125" y="281" font-family="monospace" font-size="13" fill="#94a3b8">language:</text>
+  <text x="200" y="281" font-family="monospace" font-size="13" fill="#a855f7">str</text>
+  <text x="105" y="315" font-family="monospace" font-size="13" fill="#64748b">@app</text>
+  <text x="145" y="315" font-family="monospace" font-size="13" fill="#f59e0b">.post</text>
+  <text x="190" y="315" font-family="monospace" font-size="13" fill="#22c55e">("/review")</text>
+  <text x="105" y="338" font-family="monospace" font-size="13" fill="#a855f7">async</text>
+  <text x="155" y="338" font-family="monospace" font-size="13" fill="#64748b">def</text>
+  <text x="190" y="338" font-family="monospace" font-size="13" fill="#06b6d4">review_code</text>
+  <!-- Right: Results panel -->
+  <rect x="760" y="80" width="360" height="515" rx="16" fill="#0f0f1a" stroke="#1e1e3a" stroke-width="1"/>
+  <rect x="760" y="80" width="360" height="40" rx="16" fill="#0f0f1a"/>
+  <text x="790" y="105" font-family="system-ui" font-size="14" font-weight="600" fill="#f1f5f9">Review Results</text>
+  <!-- Finding cards -->
+  <rect x="785" y="140" width="310" height="60" rx="8" fill="#1a1530" stroke="#ef4444" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="800" y="160" font-family="system-ui" font-size="11" font-weight="600" fill="#ef4444">● HIGH</text>
+  <text x="855" y="160" font-family="system-ui" font-size="11" fill="#94a3b8">SQL Injection Risk — Line 42</text>
+  <text x="800" y="180" font-family="system-ui" font-size="10" fill="#64748b">Use parameterized queries instead</text>
+  <rect x="785" y="215" width="310" height="60" rx="8" fill="#1a1530" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="800" y="235" font-family="system-ui" font-size="11" font-weight="600" fill="#f59e0b">● MEDIUM</text>
+  <text x="870" y="235" font-family="system-ui" font-size="11" fill="#94a3b8">Unhandled Exception — Line 87</text>
+  <text x="800" y="255" font-family="system-ui" font-size="10" fill="#64748b">Add try-catch for error handling</text>
+  <rect x="785" y="290" width="310" height="60" rx="8" fill="#1a1530" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="800" y="310" font-family="system-ui" font-size="11" font-weight="600" fill="#3b82f6">● LOW</text>
+  <text x="855" y="310" font-family="system-ui" font-size="11" fill="#94a3b8">Naming Convention — Line 15</text>
+  <text x="800" y="330" font-family="system-ui" font-size="10" fill="#64748b">Use snake_case for variable names</text>
+  <!-- Stats bar bottom -->
+  <rect x="785" y="370" width="310" height="50" rx="8" fill="#1a1530" stroke="#1e1e3a" stroke-width="1"/>
+  <text x="805" y="396" font-family="system-ui" font-size="16" font-weight="700" fill="#ef4444">3</text>
+  <text x="825" y="400" font-family="system-ui" font-size="10" fill="#64748b">High</text>
+  <text x="885" y="396" font-family="system-ui" font-size="16" font-weight="700" fill="#f59e0b">2</text>
+  <text x="905" y="400" font-family="system-ui" font-size="10" fill="#64748b">Med</text>
+  <text x="955" y="396" font-family="system-ui" font-size="16" font-weight="700" fill="#3b82f6">4</text>
+  <text x="975" y="400" font-family="system-ui" font-size="10" fill="#64748b">Low</text>
+  <text x="1030" y="396" font-family="system-ui" font-size="16" font-weight="700" fill="#f1f5f9">9</text>
+  <text x="1050" y="400" font-family="system-ui" font-size="10" fill="#64748b">Total</text>
+</svg>
