@@ -16,6 +16,7 @@ export const projects: Project[] = [
     outcome:
       'Real-time dashboard with mock MQTT data simulation. Clean, responsive dark-themed UI. Featured in university IoT lab as reference implementation.',
     githubUrl: 'https://github.com/luoming-lot/iot-platform',
+    liveUrl: 'https://luoming-lot.github.io/iot-platform/',
     featured: true,
   },
   {
@@ -33,6 +34,7 @@ export const projects: Project[] = [
     outcome:
       'Professional dark-themed admin interface with responsive layout. Multiple pages (Dashboard, Users, Orders) managed via React state. Codebase serves as reference for internal tools.',
     githubUrl: 'https://github.com/luoming-lot/enterprise-admin',
+    liveUrl: 'https://luoming-lot.github.io/enterprise-admin/',
     featured: true,
   },
   {
@@ -68,6 +70,7 @@ export const projects: Project[] = [
     outcome:
       'Detects common code issues across multiple languages. Clean separation of frontend and backend. Ready for LLM API integration for enhanced analysis.',
     githubUrl: 'https://github.com/luoming-lot/ai-code-review',
+    liveUrl: 'https://luoming-lot.github.io/ai-code-review/',
     featured: false,
   },
 ]
