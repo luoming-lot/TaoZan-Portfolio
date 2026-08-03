@@ -6,7 +6,7 @@ export const projects: Project[] = [
     slug: 'smart-env-monitor',
     title: 'Smart Environment Monitoring Platform',
     description:
-      'A full-stack IoT platform (ESP32 + MQTT + Spring Boot + React + MySQL) with real-time monitoring, history curves, threshold alarms, device management and JWT login.',
+      '基于 ESP32 + MQTT + Spring Boot + React + MySQL 的全栈物联网监测平台：实时监控、历史曲线、阈值报警、设备管理与 JWT 登录。A full-stack IoT platform with real-time monitoring, history curves, threshold alarms, device management and JWT login.',
     coverImage: `${BASE_PATH}/images/projects/env-monitor.png`,
     techStack: ['Java 17', 'Spring Boot', 'React', 'MySQL', 'MQTT', 'ESP32', 'WebSocket', 'Docker'],
     role: 'Full-Stack Developer',
