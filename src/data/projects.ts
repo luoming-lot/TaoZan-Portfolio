@@ -3,21 +3,21 @@ import { BASE_PATH } from '@/lib/config'
 
 export const projects: Project[] = [
   {
-    slug: 'iot-platform',
-    title: 'IoT Device Management Platform',
+    slug: 'smart-env-monitor',
+    title: 'Smart Environment Monitoring Platform',
     description:
-      'A comprehensive IoT device management platform with real-time monitoring, data visualization, and device control capabilities.',
-    coverImage: `${BASE_PATH}/images/projects/iot-platform.svg`,
-    techStack: ['React', 'TypeScript', 'TailwindCSS', 'Recharts', 'MQTT', 'ESP32'],
+      'A full-stack IoT platform (ESP32 + MQTT + Spring Boot + React + MySQL) with real-time monitoring, history curves, threshold alarms, device management and JWT login.',
+    coverImage: `${BASE_PATH}/images/projects/env-monitor.png`,
+    techStack: ['Java 17', 'Spring Boot', 'React', 'MySQL', 'MQTT', 'ESP32', 'WebSocket', 'Docker'],
     role: 'Full-Stack Developer',
     problem:
-      'Managing distributed IoT devices at scale requires a unified platform for real-time monitoring and data analytics. Traditional solutions lack modern web interfaces.',
+      'Monitoring temperature and humidity across distributed locations needs a complete data pipeline — from embedded sensors to a modern web dashboard. Off-the-shelf solutions are either hardware-only or lack real-time visibility, history analysis and alarm handling.',
     solution:
-      'Built a real-time dashboard with animated device cards, live temperature/humidity charts, device status tracking, and a detail modal for device inspection.',
+      'Built the end-to-end pipeline: ESP32 firmware (DHT22 + MQTT) publishes telemetry to Eclipse Mosquitto; Spring Boot ingests data, auto-registers devices, evaluates threshold alarms and pushes updates over WebSocket; a React + Ant Design + ECharts dashboard provides real-time monitoring, history curves, and device/alarm management, secured with JWT and Flyway-managed MySQL.',
     outcome:
-      'Real-time dashboard with mock MQTT data simulation. Clean, responsive dark-themed UI. Featured in university IoT lab as reference implementation.',
-    githubUrl: 'https://github.com/luoming-lot/iot-platform',
-    liveUrl: 'https://luoming-lot.github.io/iot-platform/',
+      'Deployed with Docker Compose and to Render as a live demo. Features auto device registration, threshold alarm trigger and auto-resolve, history aggregation, and WebSocket real-time push — fully documented with architecture diagrams, API reference and deployment guides.',
+    githubUrl: 'https://github.com/luoming-lot/smart-env-monitor',
+    liveUrl: 'https://env-monitor-60z3.onrender.com',
     featured: true,
   },
   {
