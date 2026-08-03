@@ -52,8 +52,8 @@ export const projects: Project[] = [
       'Built with Next.js App Router for optimal performance. Integrated GitHub API for live repository data. Designed with dark, minimal aesthetic.',
     outcome:
       'Lighthouse: Performance 98, Accessibility 100, SEO 100, Best Practices 100. Deployed to GitHub Pages via static export.',
-    githubUrl: 'https://github.com/luoming-lot/portfolio',
-    liveUrl: 'https://luoming-lot.github.io/portfolio/',
+    githubUrl: 'https://github.com/luoming-lot/TaoZan-Portfolio',
+    liveUrl: 'https://luoming-lot.github.io/TaoZan-Portfolio/',
     featured: true,
   },
   {

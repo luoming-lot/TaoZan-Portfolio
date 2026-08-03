@@ -79,7 +79,7 @@ export function Hero() {
                 View Projects
               </a>
               <a
-                href="https://luoming-lot.github.io/portfolio/resume.pdf"
+                href="https://luoming-lot.github.io/TaoZan-Portfolio/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-medium rounded-lg border border-zinc-700 text-zinc-300 hover:bg-zinc-800/50 hover:border-zinc-600 transition-colors"

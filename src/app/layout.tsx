@@ -35,11 +35,11 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tao Zan', url: 'https://github.com/luoming-lot' }],
   creator: 'Tao Zan',
-  metadataBase: new URL('https://luoming-lot.github.io/portfolio'),
+  metadataBase: new URL('https://luoming-lot.github.io/TaoZan-Portfolio'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://luoming-lot.github.io/portfolio',
+    url: 'https://luoming-lot.github.io/TaoZan-Portfolio',
     siteName: 'Tao Zan Portfolio',
     title: 'Tao Zan — Web Developer & IoT Platform Developer',
     description:

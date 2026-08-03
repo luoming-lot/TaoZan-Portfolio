@@ -42,7 +42,7 @@ export function About() {
             </motion.div>
           ))}
           <motion.a
-            href="https://luoming-lot.github.io/portfolio/resume.pdf"
+            href="https://luoming-lot.github.io/TaoZan-Portfolio/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, y: 20 }}

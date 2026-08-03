@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://luoming-lot.github.io/portfolio/</loc>
+    <loc>https://luoming-lot.github.io/TaoZan-Portfolio/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://luoming-lot.github.io/portfolio/projects/iot-platform</loc>
+    <loc>https://luoming-lot.github.io/TaoZan-Portfolio/projects/iot-platform</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://luoming-lot.github.io/portfolio/projects/enterprise-admin</loc>
+    <loc>https://luoming-lot.github.io/TaoZan-Portfolio/projects/enterprise-admin</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://luoming-lot.github.io/portfolio/projects/portfolio-website</loc>
+    <loc>https://luoming-lot.github.io/TaoZan-Portfolio/projects/portfolio-website</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://luoming-lot.github.io/portfolio/projects/ai-project</loc>
+    <loc>https://luoming-lot.github.io/TaoZan-Portfolio/projects/ai-project</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

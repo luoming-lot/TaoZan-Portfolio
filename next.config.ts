@@ -2,7 +2,7 @@ import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
   output: 'export',
-  basePath: '/portfolio',
+  basePath: '/TaoZan-Portfolio',
   turbopack: {
     root: process.cwd(),
   },
