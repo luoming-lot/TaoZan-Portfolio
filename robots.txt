@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://luoming-lot.github.io/TaoZan-Portfolio/sitemap.xml
