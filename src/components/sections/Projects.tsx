@@ -23,10 +23,13 @@ export function Projects() {
               href={`/projects/${project.slug}`}
               className="group block h-full p-6 rounded-2xl border border-zinc-800/50 bg-zinc-900/30 backdrop-blur-sm hover:border-zinc-700/50 hover:bg-zinc-900/50 transition-all duration-300"
             >
-              {/* Cover placeholder */}
-              <div className="aspect-video rounded-lg bg-zinc-800/50 border border-zinc-700/30 mb-5 overflow-hidden flex items-center justify-center relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-zinc-800/0 via-zinc-800/0 to-zinc-800/30" />
-                <span className="text-sm font-medium text-zinc-600">{project.title}</span>
+              {/* Cover image */}
+              <div className="aspect-video rounded-lg bg-zinc-800/50 border border-zinc-700/30 mb-5 overflow-hidden relative">
+                <img
+                  src={project.coverImage}
+                  alt={project.title}
+                  className="w-full h-full object-cover"
+                />
               </div>
 
               <h3 className="text-lg font-semibold text-zinc-100 group-hover:text-zinc-50 transition-colors">

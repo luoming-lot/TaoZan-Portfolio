@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import { FileText, Download, ExternalLink } from 'lucide-react'
 import { Section } from '@/components/ui/Section'
+import { BASE_PATH } from '@/lib/config'
 
 export function Resume() {
   return (
@@ -33,7 +34,7 @@ export function Resume() {
         {/* Actions */}
         <div className="flex flex-wrap gap-3 mt-6">
           <a
-            href="/resume.pdf"
+            href={`${BASE_PATH}/resume.pdf`}
             download
             className="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-medium rounded-lg bg-zinc-100 text-zinc-900 hover:bg-zinc-200 transition-colors"
           >
@@ -41,7 +42,7 @@ export function Resume() {
             Download PDF
           </a>
           <a
-            href="/resume.pdf"
+            href={`${BASE_PATH}/resume.pdf`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-medium rounded-lg border border-zinc-700 text-zinc-300 hover:bg-zinc-800/50 hover:border-zinc-600 transition-colors"

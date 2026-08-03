@@ -37,7 +37,7 @@ export const experiences: Experience[] = [
     type: 'work',
   },
   {
-    year: '2027',
+    year: '2026',
     title: 'Open to Opportunities',
     organization: 'Seeking Full-Time Position',
     description: 'Looking for Web Frontend, IoT Platform Development, or Technical Support roles at leading internet companies.',

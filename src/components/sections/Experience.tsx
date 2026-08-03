@@ -7,7 +7,7 @@ const timeline = [
   { year: '2023', title: 'Started University', desc: 'Enrolled in IoT Engineering at 重庆机电职业技术大学.' },
   { year: '2025', title: 'IoT Web Management System', desc: 'Built full-stack IoT platform with real-time MQTT monitoring.' },
   { year: '2026', title: 'CAICT Internship', desc: 'Technical Support Intern at China Academy of Information and Communications Technology (Chongqing).' },
-  { year: '2027', title: 'Open to Work', desc: 'Seeking Web Frontend, IoT Platform, and Technical Support roles.' },
+  { year: '2026', title: 'Open to Work', desc: 'Seeking Web Frontend, IoT Platform, and Technical Support roles.' },
 ]
 
 export function Experience() {

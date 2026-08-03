@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import { GraduationCap, MapPin, Code2, Radio, Server, Headphones, Download } from 'lucide-react'
 import { Section } from '@/components/ui/Section'
+import { BASE_PATH } from '@/lib/config'
 
 const infoCards = [
   { icon: GraduationCap, label: '2027 Graduate', value: 'IoT Engineering' },
@@ -13,7 +14,7 @@ const focusCards = [
   { icon: Code2, label: 'Web Development', desc: 'React · Next.js · TypeScript' },
   { icon: Radio, label: 'IoT Platform', desc: 'ESP32 · MQTT · Arduino' },
   { icon: Server, label: 'Backend', desc: 'Node.js · Java · MySQL' },
-  { icon: Headphones, label: 'Technical Support', desc: 'Currently interning at CAICT Chongqing' },
+  { icon: Headphones, label: 'Technical Support', desc: 'Troubleshooting & system maintenance' },
 ]
 
 export function About() {
@@ -41,8 +42,9 @@ export function About() {
             </motion.div>
           ))}
           <motion.a
-            href="/resume.pdf"
-            download
+            href="https://luoming-lot.github.io/portfolio/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}

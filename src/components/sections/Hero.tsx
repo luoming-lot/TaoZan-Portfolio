@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import { ArrowDown, Mail, FileText, Briefcase } from 'lucide-react'
 import { FaGithub } from 'react-icons/fa'
+import { BASE_PATH } from '@/lib/config'
 
 export function Hero() {
   return (
@@ -62,7 +63,6 @@ export function Hero() {
               className="mt-8 text-lg text-zinc-400 max-w-md leading-relaxed"
             >
               Building modern web applications and IoT management platforms.
-              Currently interning at CAICT Chongqing.
             </motion.p>
 
             <motion.div
@@ -79,7 +79,9 @@ export function Hero() {
                 View Projects
               </a>
               <a
-                href="#resume"
+                href="https://luoming-lot.github.io/portfolio/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-medium rounded-lg border border-zinc-700 text-zinc-300 hover:bg-zinc-800/50 hover:border-zinc-600 transition-colors"
               >
                 <FileText size={16} />
@@ -116,7 +118,7 @@ export function Hero() {
               <div className="absolute -inset-4 bg-gradient-to-br from-zinc-500/20 via-transparent to-zinc-700/20 rounded-3xl blur-2xl" />
               <div className="relative w-72 h-72 rounded-2xl bg-zinc-800/50 border border-zinc-700/50 backdrop-blur-sm flex items-center justify-center overflow-hidden">
                 <img
-                  src="/images/avatar.jpg"
+                  src={`${BASE_PATH}/images/avatar.jpg`}
                   alt="Tao Zan"
                   className="w-full h-full object-cover"
                   onError={(e) => {

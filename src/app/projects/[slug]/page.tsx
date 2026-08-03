@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import { ArrowLeft, ExternalLink } from 'lucide-react'
 import { FaGithub } from 'react-icons/fa'
 import { projects } from '@/data/projects'
+import { BASE_PATH } from '@/lib/config'
 
 interface Props {
   params: Promise<{ slug: string }>

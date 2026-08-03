@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     template: '%s — Tao Zan',
   },
   description:
-    'Portfolio of Tao Zan — 2027 graduate specializing in Web Development, IoT Platforms, and Technical Support. Currently interning at CAICT Chongqing.',
+    'Portfolio of Tao Zan — 2027 graduate specializing in Web Development, IoT Platforms, and Technical Support.',
   keywords: [
     'Tao Zan',
     'Web Developer',
