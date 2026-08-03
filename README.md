@@ -2,7 +2,7 @@
 
 A modern, high-performance personal portfolio website built for internet industry autumn recruitment.
 
-**Live**: [taozan.dev](https://taozan.dev)
+**Live**: [luoming-lot.github.io/portfolio](https://luoming-lot.github.io/portfolio/)
 
 ## Tech Stack
 
