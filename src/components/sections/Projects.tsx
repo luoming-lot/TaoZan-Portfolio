@@ -10,7 +10,7 @@ import { projects } from '@/data/projects'
 export function Projects() {
   return (
     <Section id="projects" title="Projects" subtitle="Selected work showcasing my skills and experience.">
-      <div className="grid md:grid-cols-2 gap-6">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
         {projects.map((project, i) => (
           <motion.div
             key={project.slug}

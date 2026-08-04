@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <!-- Grid pattern -->
+  <g opacity="0.05">
+    <line x1="0" y1="0" x2="1200" y2="0" stroke="white" stroke-width="1"/>
+    <line x1="0" y1="135" x2="1200" y2="135" stroke="white" stroke-width="1"/>
+    <line x1="0" y1="270" x2="1200" y2="270" stroke="white" stroke-width="1"/>
+    <line x1="0" y1="405" x2="1200" y2="405" stroke="white" stroke-width="1"/>
+    <line x1="0" y1="540" x2="1200" y2="540" stroke="white" stroke-width="1"/>
+    <line x1="200" y1="0" x2="200" y2="675" stroke="white" stroke-width="1"/>
+    <line x1="400" y1="0" x2="400" y2="675" stroke="white" stroke-width="1"/>
+    <line x1="600" y1="0" x2="600" y2="675" stroke="white" stroke-width="1"/>
+    <line x1="800" y1="0" x2="800" y2="675" stroke="white" stroke-width="1"/>
+    <line x1="1000" y1="0" x2="1000" y2="675" stroke="white" stroke-width="1"/>
+  </g>
+  <!-- Browser window icon -->
+  <g transform="translate(600,225)">
+    <rect x="-170" y="-85" width="340" height="170" rx="16" fill="#0f172a" stroke="url(#accent)" stroke-width="3"/>
+    <rect x="-170" y="-85" width="340" height="38" rx="16" fill="#0f172a"/>
+    <rect x="-170" y="-66" width="340" height="19" fill="#0f172a"/>
+    <circle cx="-145" cy="-66" r="6" fill="#ef4444"/>
+    <circle cx="-125" cy="-66" r="6" fill="#f59e0b"/>
+    <circle cx="-105" cy="-66" r="6" fill="#22c55e"/>
+    <circle cx="0" cy="-12" r="34" fill="none" stroke="#06b6d4" stroke-width="3"/>
+    <path d="M-55,26 Q0,-55 55,26" fill="none" stroke="#3b82f6" stroke-width="3"/>
+    <path d="M-55,26 H55" stroke="#64748b" stroke-width="2"/>
+  </g>
+  <text x="600" y="375" text-anchor="middle" font-family="system-ui,sans-serif" font-size="36" font-weight="700" fill="#f1f5f9">Personal Website</text>
+  <text x="600" y="415" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" fill="#64748b">HTML 路 CSS 路 JavaScript</text>
+  <!-- Bottom status bar -->
+  <rect x="280" y="510" width="640" height="60" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+  <circle cx="330" cy="540" r="6" fill="#22c55e"/>
+  <text x="350" y="545" font-family="monospace" font-size="13" fill="#94a3b8">Fast</text>
+  <circle cx="540" cy="540" r="6" fill="#3b82f6"/>
+  <text x="560" y="545" font-family="monospace" font-size="13" fill="#94a3b8">Responsive</text>
+  <circle cx="750" cy="540" r="6" fill="#22c55e"/>
+  <text x="770" y="545" font-family="monospace" font-size="13" fill="#94a3b8">Live</text>
+</svg>
